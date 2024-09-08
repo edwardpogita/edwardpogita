@@ -7,8 +7,10 @@ def relationship_choice():
     choice = input("Your choice (a/b): ").lower()
     
     if choice == "a":
-        print( "🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕")
-        follow_up = input("Follow-up question: Bakit mo'ko iniignore?, nakakasakit kana. Your answer: ")
+        print("🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕")
+    if choice == "b":
+        print (" SORRYY POOO ILOVEYOUUSOMUCHHH BABY ")    
+follow_up = input("Follow-up question: Bakit mo'ko iniignore?, nakakasakit kana. Your answer: ")
         print(f"Your response: {follow_up}")
 
 # Run the relationship_choice function
